@@ -65,7 +65,7 @@ email = ""
 if name and  name.isalpha():
     email = input(f'Hi {name}, Please enter your email').strip()
     if email:
-        print(f"You entered email: {email}")
+        print(f"You entered name: {name} and email: {email}")
     else:
         print("No email has been entered")
 
